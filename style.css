@@ -1,0 +1,181 @@
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #eb6796 !important;
+        }
+
+        .logo {
+            font-size: 3em;
+            color: #162938;
+            user-select: none;
+        }
+
+        .header {
+            display: flex;
+            width: 100%;
+            height: 60px;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            background-color: white;
+            position: fixed;
+            z-index: 1000;
+        }
+
+        .header>div:nth-child(1) {
+            font-size: 35px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+        }
+
+        .header>div:nth-child(2)>a {
+            margin-right: 50px;
+            font-size: 20px;
+            color: gray;
+
+        }
+
+        .header>div:nth-child(3) i {
+            margin-right: 20px;
+            font-size: 20px;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .introduce>img {
+            width: 100%;
+            height: 800px;
+            margin-top: 75px;
+        }
+
+        .introduce2 {
+            width: 600px;
+            position: absolute;
+            top: 20%;
+            left: 10%
+        }
+
+        .introduce2>p:nth-child(1) {
+            font-size: 50px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+        }
+
+        .introduce2>p:nth-child(2) {
+            font-size: 45px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 500;
+            color: #eb6796;
+        }
+
+        .content {
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        .content>div:nth-child(1) {
+            height: 80px;
+            background-color: #fff4fb;
+            margin-bottom: 20px;
+            font-size: 40px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        span {
+            color: #eb6796;
+        }
+
+        .sub-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .sub-content>div {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        .sub-content .card {
+            transition: transform 400ms;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+
+        .sub-content>div>p {
+            display: inline-block;
+            color: #eb6796;
+            font-size: 25px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        h4 {
+            font-weight: 600;
+            font-size: 22px;
+            margin-bottom: 0;
+            margin-top: 20px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        h3 {
+            font-size: 25px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+        }
+
+        .footer i {
+            color: #eb6796;
+            margin-right: 7px;
+        }
+
+        .section-nav {
+            text-align: center;
+            height: 180px;
+            color: white;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #ff0066;
+            color: white;
+            cursor: pointer;
+        }
+
+        .sub-content>div:nth-child(1)>div>div>p {
+            display: inline-block;
+        }
+
+        .sub-content>div:nth-child(1)>div {
+            width: 200px;
+            margin: 0 auto;
+        }
